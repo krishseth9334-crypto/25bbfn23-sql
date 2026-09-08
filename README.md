@@ -18,5 +18,5 @@ ALTER TABLE employee
 ADD COLUMN phone VARCHAR (15),
 ADD COLUMN city VARCHAR (100);
 
-ALTER TABLE employee
+ALTER TABLE employeem
 RENAME COLUMN phone TO mobile_number;
